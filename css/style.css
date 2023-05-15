@@ -1,0 +1,307 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Cisco Sans', Arial, Helvetica, sans-serif;
+}
+
+/* header -----------------------------------------------------*/
+.header {
+    background-color: white;
+    box-shadow: 0 0 21px black; /*!!!!!!!!!!!!!!!!!*/
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-img {
+    margin: 13px 0 11px;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header-menu__item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.call-img {
+    max-width: 25px;
+    max-height: 25px;
+    margin-right: 16px;
+}
+
+.header__call-block {
+    display: flex;
+    align-items: center;
+}
+
+.header__number {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 16px;
+}
+
+/* header-end */
+
+
+/* hero ------------------------------------------------*/
+
+.hero {
+    background-image: url("../images/fon-headline.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.hero__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero__headline {
+    background-image: url("../images/fon-hedline2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 229px;
+    width: 788px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.hero__inner {
+    z-index: 1;
+}
+
+.hero__title {
+    margin: 0;
+    font-family: 'Cisco Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 68px;
+    color: #ffffff;
+}
+
+.hero__subtitle {
+    display: inline-block;
+    max-width: 368px;
+    font-size: 31px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* hero-end */
+
+
+/* amenities---------------------------------------------- */
+
+.amenities {
+    padding: 70px 0;
+}
+
+.amenities__container {
+    max-width: 1090px;
+}
+
+.amenities-title {
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 67px 0;
+}
+
+.amenities__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.amenities-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.amenities-item__img {
+    height: 85px;
+    object-fit: cover;
+}
+
+.amenities-item__title {
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    max-width: 150px;
+    height: 80px;
+}
+
+/*equipment-----------------------------------------------------------*/
+
+.equipment {
+    background-image: url("../images/equipment-fon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 843px;
+}
+
+.equipment__inner {
+    height: 713px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 65px 0;
+    align-items: center;
+}
+
+.equipment__element {
+    height: 343px;
+    width: 280px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 24px rgba(0, 1, 3, 21%);
+}
+
+.equipment-element__img {
+    background-color: #e6e6e6;
+    padding: 10px 22px 16px 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.equipment-element__model {
+    color: black;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 30px 0 14px 16px;
+}
+
+.equipment-element__model-title--green {
+    color: #016929;
+}
+
+.equipment-element__characteristic {
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom: 1px solid #dcdcdc;
+    margin: 0 0 20px 16px;
+    width: 249px;
+}
+
+.equipment-element__prise {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0 0 16px;
+}
+
+.equipment-element__prise-title--green {
+    color: #016929;
+    font-weight: 700;
+}
+
+/*proposal--------------------------------------------------*/
+.proposal {
+    background-image: url("../images/offer-fon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    height: 133px;
+}
+
+.proposal__container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposal__info {
+    margin: 0 0 0 38px;
+    color: white;
+}
+
+.proposal-info__title {
+    margin: 0;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.proposal-info__text {
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: normal;
+}
+
+
+/*end proposal*/
+
+
+/*footer------------------------------------------------*/
+
+.footer {
+    background-color: black;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 102px;
+}
+.footer__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer__call-block {
+    display: flex;
+    align-items: center;
+}
+
+.footer__img-phone{
+    margin-right: 16px;
+}
+.footer__number-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+
+/*footer end*/
